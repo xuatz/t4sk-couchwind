@@ -1,0 +1,22 @@
+{
+  "name": "t4sk-couchwind",
+  "version": "0.0.1",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "client": "yarn workspace client start",
+    "server": "yarn workspace server start"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "singleQuote": true
+  },
+  "devDependencies": {
+    "prettier": "2.1.2",
+    "typescript": "3.7.5"
+  }
+}
