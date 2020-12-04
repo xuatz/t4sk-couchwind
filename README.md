@@ -10,12 +10,12 @@ Yet another todolist. But this project objective is to practise using couchdb an
 - Create Account
   - migrate local state to remote state to persist session
 - Login/Logout
-- Todo Model
-  - created by
-  - assigned to
-    - user can key in the username of other users
-- Users can and only can see todo that are created by or assigned to them.
+- Todo (will not support multi-user todo due to complexity with couchdb, maybe next time ^^)
+  - ~~created by~~
+  - ~~assigned to~~
+    - ~~user can key in the username of other users~~
+- ~~Users can and only can see todo that are created by or assigned to them.~~
 
 ## Use Cases to achieve
 
-### 1) When a task is assigned to multiple users, they edit the task information respectively offline, what happens when they come online?
+### 1) When a task is sync to multiple devices, when they are modified separately offline, what happens when the devices come online?
